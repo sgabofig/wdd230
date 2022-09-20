@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment portal</title>
+    <title>Assignment portal - Gabriel Figueroa</title>
+    <meta name="description" content="Assignment portal for Gabriel Figueroa - WDD 230 - BYU Idaho">
+    <link rel="stylesheet" href="../wdd230/styles/index.css">
 </head>
 <body>
+    <div id="content">
     <header>
-        <div class="profileImgContainer">
+        <div class="profileimgcontainer">
             <img src="../wdd230/images/profilePicture.jfif" alt="Profile picture">
         </div>
         <h1>S. Gabriel Figueroa</h1>
@@ -27,10 +30,12 @@
             <li>Lesson 10: <a href="#">Title</a></li>
             <li>Lesson 11: <a href="#">Title</a></li>        
         </ul>
-        <p>Some lessons may need more than one activity/assignment link</p>
     </main>
     <footer>
-        <p>&copy; 2022 || S. Gabriel Figueroa || Argentina</p>
+        <p>&copy; <span id="currentyear"></span> || S. Gabriel Figueroa || Argentina</p>
+        <p id="lastupdated"></p>
     </footer>
+    </div>
+    <script src="../wdd230/scripts/dates.js"></script>
 </body>
 </html>
